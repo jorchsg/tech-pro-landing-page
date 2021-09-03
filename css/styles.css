@@ -132,3 +132,37 @@ img{
     font-size: 6rem;
     font-weight: 900;
 }
+
+/* Iconos */
+
+.iconos {
+    padding: var(--separacion) 0;
+}
+
+@media (min-width: 768px){
+    .iconos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+    }
+}
+
+.icono{
+    text-align: center;
+    margin-bottom: calc( var(--separacion) / 2);
+}
+
+.icono:last-of-type{
+    margin: 0;
+}
+
+.icono img{
+    width: 5rem;
+    margin: 0 auto;
+}
+
+.icono h3{
+    color: var(--primary);
+    text-transform: uppercase;
+    margin-top: calc(var(--separacion) / 2);
+}
