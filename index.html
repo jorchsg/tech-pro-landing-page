@@ -18,6 +18,40 @@
 </head>
 
 <body>
+    <!-- Header -->
+    <header class="header">
+        
+        <div class="contenedor contenido-header">
+
+            <div class="imagen-header">
+                <picture>
+                    <source
+                        sizes="1920w, 1280w, 640w"
+                        srcset="img/header.avif 1920w"
+                        type="image/avif"
+                    >
+                    <source
+                        sizes="1920w, 1280w, 640w"
+                        srcset="img/header.webp 1920w"
+                        type="image/webp"
+                    >
+                    <source 
+                        sizes="1920w, 1280w, 640w" 
+                        srcset="img/header.jpg 1920w" 
+                        type="image/jpeg"
+                    >
+                    <img loading="lazy" decoding="async" src="img/header.jpg" lazyalt="imagen" width="1000" height="500">
+                </picture>
+            </div>
+
+            <div class="texto-header">
+                <p class="tagline-producto">Professional Sound</p>
+                <h1 class="nombre-producto degradado-verde">TechPro</h1>
+                <p class="description producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quia saepe, nam accusantium maiores inventore accusamus consequuntur odit ipsa nemo eius perferendis fugit molestiae mollitia possimus similique. Fuga, nisi nobis.</p>
+                <p class="precio-producto">Desde <span>$299</span></p>
+            </div>
+        </div>
+    </header>
 
 </body>
 
